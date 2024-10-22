@@ -1,0 +1,19 @@
+.footer-container{
+    padding: 80px 110px;
+}
+
+.footer-container h3{
+    font-size: 20px;
+    color: gray;
+}
+
+@media (max-width: 768px) {
+    .footer-container{
+        padding: 20px;
+    }
+
+    .footer-container h3{
+        font-size: 10px;
+        text-align: center;
+    }
+}

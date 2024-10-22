@@ -1,0 +1,173 @@
+.section1{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 110px;
+    color: white;
+    gap: 60px;
+    position: relative;
+}
+
+.checkbox{
+    background-color: white;
+    display: block;
+}
+
+.col1{
+    width: 50%;
+}
+
+.col1 h1{
+    font-size: 50px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.col1 h2{
+    font-size: 60px;
+    margin: 30px 0;
+    animation: slideInFromLeft 1s ease-out;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%); 
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0); 
+      opacity: 1;
+    }
+  }
+
+.col1 ul{
+    list-style: none;
+    padding: 20px 0;
+}
+
+.col1 ul li{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.logo-container{
+    width: 550px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+
+.logo-container img{
+    width: 140px; 
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.col2{
+    background-color: white;
+    margin: 30px;
+    flex-basis: 35%;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    position: fixed;
+    right: 5%;
+    top: 46%;
+    transform: translateY(-50%);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 460px;
+}
+
+.react-tel-input .form-control{
+    height: 45px !important;
+}
+
+.form-control{
+    margin-top: 10px ;
+}
+
+.col2 h3{
+    color: red;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.col2 p{
+    color: grey;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0;
+}
+
+form input, select{
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 2px solid lightgray;
+}
+
+button{
+    align-self: center;
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .section1{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .col1{
+        width: 100%;
+    }
+
+    .col1 h2{
+        font-size: 40px;
+    }
+
+    .list ul li{
+        font-size: 20px;
+    }
+
+    .logo-container{
+        width: 100%;
+    }
+
+    .logo-container img{
+        width: 80px; 
+    }
+
+    .col2{
+        position: static; 
+        top: auto;      
+        right: auto;    
+        transform: none; 
+        margin: 20px auto; 
+        width: 100%;
+    }
+}
+
+

@@ -1,0 +1,29 @@
+.section5-container{
+    background-color: #FFF4F4;
+    padding: 80px 110px;
+}
+
+.section5{
+    width: 55%;
+}
+
+.section5 h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+@media (max-width: 768px) {
+    .section5-container{
+        padding: 40px 20px;
+    }
+
+    .section5{
+        width: 100%;
+    }
+
+    .section5 h1{
+        font-size: 30px;
+        font-weight: 900;
+    }
+}

@@ -1,0 +1,49 @@
+.section6-container{
+    padding: 80px 110px;
+}
+
+.section6{
+    width: 55%;
+}
+
+.section6 h1{
+    margin: 30px 0;
+    color: #58526A;
+    font-size: 30px;
+}
+
+.section6 .images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section6 .images img{
+    filter: grayscale();
+    width: 161px; 
+    height: auto;
+}
+
+.section6 .images img:hover{
+    filter: none;
+}
+
+@media (max-width: 768px) {
+
+    .section6-container{
+        padding: 30px 20px;
+    }
+
+    .section6{
+        width: 100%;
+    }
+
+    .section6 h1{
+        margin: 30px 0;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .section6 .images img{
+        width: 100px; 
+    }
+}
